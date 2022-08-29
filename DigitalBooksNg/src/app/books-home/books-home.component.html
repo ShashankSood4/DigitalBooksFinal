@@ -1,0 +1,28 @@
+<div>
+    <table class="table">
+       <thead>
+         <th>Book ID</th>
+         <th>Logo</th>
+         <th>Title</th>
+         <th>Category</th>
+         <th>Price</th>
+         <th>Author Name</th>
+         <th>Publisher</th>
+         <th>Content</th>
+       </thead>
+       <tbody>
+         <tr *ngFor="let book of books">
+           <td>{{book.bookId}}</td>
+           <td>{{book.logo}}</td>
+           <td>{{book.title}}</td>
+           <td>{{book.category}}</td>
+           <td>{{book.price}}</td>
+           <td>{{book.authorName}}</td>
+           <td>{{book.publisher}}</td>
+           <td>{{book.content}}</td>
+         </tr>
+       </tbody>
+    </table>
+  </div>
+
+  <a [routerLink]="['/booksearch']">Search for a book</a>

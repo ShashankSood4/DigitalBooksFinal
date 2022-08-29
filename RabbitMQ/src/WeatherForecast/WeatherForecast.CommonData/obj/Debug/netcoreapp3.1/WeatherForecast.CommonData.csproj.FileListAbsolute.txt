@@ -1,0 +1,10 @@
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\bin\Debug\netcoreapp3.1\WeatherForecast.CommonData.deps.json
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\bin\Debug\netcoreapp3.1\WeatherForecast.CommonData.dll
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\bin\Debug\netcoreapp3.1\WeatherForecast.CommonData.pdb
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.csproj.AssemblyReference.cache
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.AssemblyInfoInputs.cache
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.AssemblyInfo.cs
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.csproj.CoreCompileInputs.cache
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.dll
+C:\Users\cogdotnet1359\Downloads\RabbitMQ Example\RabbitMqDemo-master\src\WeatherForecast\WeatherForecast.CommonData\obj\Debug\netcoreapp3.1\WeatherForecast.CommonData.pdb

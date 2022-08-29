@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bz0bIvIAWYpEBwFg/KJAIC9C+1JWl0tJjlbEImbMxuiRZs8BakkuDdfixUNJA7qMlcZzc0AQoUDgOz3ufaC/sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cogdotnet1359\\Downloads\\RabbitMQ Example\\RabbitMqDemo-master\\src\\WeatherForecast\\WeatherForecast.CommonData\\WeatherForecast.CommonData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

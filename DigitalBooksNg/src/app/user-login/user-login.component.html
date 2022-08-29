@@ -1,0 +1,56 @@
+<h1> Welcome to Digital Books App!</h1>
+<div>
+  <h3> Please use this form for sign up</h3>
+  <form [formGroup]="userForm" (ngSubmit)="onFormSubmit(userForm.value)">
+    <input type="text" placeholder="User Name" formControlName="UserName"
+     class="form-control col-md-3"/>
+     <span *ngIf="!userForm.get('UserName').valid && userForm.get('UserName').touched">
+       Please enter User Name</span>
+       <br/>
+       <input type="text" placeholder="Email " formControlName="Email"
+     class="form-control col-md-3"/>
+     <span *ngIf="!userForm.get('Email').valid && userForm.get('Email').touched">
+       Please enter Email</span>
+       <br/>
+       <input type="text" placeholder="Password" formControlName="UserPass"
+     class="form-control col-md-3"/>
+     <span *ngIf="!userForm.get('UserPass').valid && userForm.get('UserPass').touched">
+       Please enter Password</span>
+<br/>
+<div class="custom-control custom-radio">
+  <input id="Author" type="radio" class="custom-control-input" value="Author" name="UserRole" formControlName="UserRole">
+  <label class="custom-control-label" for="Author">Author</label>
+</div>
+<div class="custom-control custom-radio">
+  <input id="Reader" type="radio" class="custom-control-input" value="Reader" name="UserRole" formControlName="UserRole">
+  <label class="custom-control-label" for="Reader">Reader</label>
+</div>
+<span *ngIf="!userForm.get('UserRole').valid && userForm.get('UserRole').touched">
+  Please enter Password</span>
+         <br/>
+         <div class="button-row">
+          <button type="submit" [disabled]="!userForm.valid"
+          class="btn btn-primary">Add User</button>
+  
+        </div>
+  
+    </form>
+  </div>
+      <!-- <form (ngSubmit)="onFormSubmit()">
+      <span>Please enter your Name</span>
+     <input type="text" placeholder="Your Name" [(ngModel)]="user.UserName" name='UserName'class="form-control col-md-3"/>
+        <br/>
+        <span>Please enter your email</span>
+        <input type="text" placeholder="abc@xyz.com" [(ngModel)]="user.Email" name='Email' class="form-control col-md-3"/>
+        <br/>
+        <span>Please enter password</span>
+                <input type="text" placeholder="Password" [(ngModel)]="user.UserPass" name='UserPass' class="form-control col-md-3"/>
+          <br/>
+          <span>Please select role</span>
+          <input type="text" placeholder="Role" [(ngModel)]="user.UserRole" name='UserRole' class="form-control col-md-3"/>
+          <br/>
+          <div class="button-row">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div></form>
+
+        </div> -->

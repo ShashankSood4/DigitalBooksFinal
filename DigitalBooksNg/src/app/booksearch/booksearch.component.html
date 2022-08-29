@@ -1,0 +1,57 @@
+<table>
+    <br>
+  <tr>
+    <td><h3>Search Using: </h3></td>
+  </tr>
+  <tr>    <td>
+      <input type="radio" value="Author" name="Search"  class=""    
+      [checked]="selectedRadioButtonValue === 'Author'" 
+      (change)='selectedRadioButtonValue=$event.target.value'/> <span>Author</span><br>
+        <input type="radio" value="Category" name="Search"  class="" 
+        [checked]="selectedRadioButtonValue === 'Category'" 
+        (change)='selectedRadioButtonValue=$event.target.value'  /> 
+        <span>Category</span><br>
+        <input type="radio" value="Price" name="Search"  class=""  
+        [checked]="selectedRadioButtonValue === 'Price'" 
+        (change)='selectedRadioButtonValue=$event.target.value'/> <span>Price</span><br>
+          
+    </td>
+  </tr>
+  <br>
+    <tr>
+    <td>
+        <input type="text" placeholder="Enter Book Details" name="txtSearch" [(ngModel)]="txtSearch" class="form-control" />
+    </td>
+  </tr>
+  <br>
+  <tr>
+    <td>
+    <input type="button" value="Search" name="btnSearch" class="btn btn-primary" (click)="Search()">
+  </td>
+  </tr>
+  </table>
+
+        <table class="table">
+           <thead>
+             <th>Book ID</th>
+             <th>Logo</th>
+             <th>Title</th>
+             <th>Category</th>
+             <th>Price</th>
+             <th>Author Name</th>
+             <th>Publisher</th>
+             <th>Content</th>
+           </thead>
+           <tbody>
+             <tr *ngFor="let book of books">
+               <td>{{book.bookId}}</td>
+               <td>{{book.logo}}</td>
+               <td>{{book.title}}</td>
+               <td>{{book.category}}</td>
+               <td>{{book.price}}</td>
+               <td>{{book.authorName}}</td>
+               <td>{{book.publisher}}</td>
+               <td>{{book.content}}</td>
+             </tr>
+           </tbody>
+        </table>

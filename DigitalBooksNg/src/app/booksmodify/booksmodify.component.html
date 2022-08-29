@@ -1,0 +1,39 @@
+<p>Modify book</p>
+<div>
+  <form  [formGroup]="bookForm" (ngSubmit)="onFormSubmit(bookForm.value)">
+    
+   <input type="text" placeholder="Logo" formControlName="Logo" name='Logo'class="form-control col-md-3"/>
+   <span *ngIf="!bookForm.get('Logo').valid && bookForm.get('Logo').touched"></span>
+   <span>Please enter Logo</span>
+      <br/>
+      
+      
+      <input type="text" placeholder="Title" formControlName="Title" name='Title' class="form-control col-md-3"/>
+      <span *ngIf="!bookForm.get('Title').valid && bookForm.get('Title').touched"></span>
+   <span>Please enter Logo</span>
+      <br/>
+              <input type="text" placeholder="Category" formControlName="Category" name='Category' class="form-control col-md-3"/>
+              <span *ngIf="!bookForm.get('Category').valid && bookForm.get('Category').touched"></span>
+   <span>Please enter Logo</span>
+        <br/>
+        <input type="text" placeholder="Price" formControlName="Price" name='Price' class="form-control col-md-3"/>
+        <span *ngIf="!bookForm.get('Price').valid && bookForm.get('Price').touched"></span>
+   <span>Please enter Logo</span>
+        <br/>
+        <input type="text" placeholder="Author Name" formControlName="AuthorName" name='AuthorName' class="form-control col-md-3"/>
+        <span *ngIf="!bookForm.get('AuthorName').valid && bookForm.get('AuthorName').touched"></span>
+   <span>Please enter Logo</span>
+        <br/>
+        <input type="text" placeholder="Publisher" formControlName="Publisher" name='Publisher' class="form-control col-md-3"/>
+        <span *ngIf="!bookForm.get('Publisher').valid && bookForm.get('Publisher').touched"></span>
+   <span>Please enter Logo</span>
+        <br/>
+        <input type="text" placeholder="Content" formControlName="Content" name='Content' class="form-control col-md-3"/>
+        <span *ngIf="!bookForm.get('Content').valid && bookForm.get('Content').touched"></span>
+   <span>Please enter Logo</span>
+        <br/>
+        <div class="button-row">
+          <button type="submit" class="btn btn-primary">Login</button>
+      </div></form>
+  
+          </div>

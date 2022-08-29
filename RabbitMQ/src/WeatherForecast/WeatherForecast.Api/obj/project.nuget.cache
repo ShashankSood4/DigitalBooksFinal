@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "WYSwAnvxtXG5Jy/SCK+ASzUSAMyrYLuKFgATJ2j/WdpMXtYVyqdxw72UAGvqvUgq/bVpd2W1O7qjG1i/+XRDvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cogdotnet1359\\Downloads\\RabbitMQ Example\\RabbitMqDemo-master\\src\\WeatherForecast\\WeatherForecast.Api\\WeatherForecast.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.3\\microsoft.aspnetcore.jsonpatch.3.1.3.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.3\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.3.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\cogdotnet1359\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.27\\microsoft.netcore.app.host.win-x64.3.1.27.nupkg.sha512"
+  ],
+  "logs": []
+}

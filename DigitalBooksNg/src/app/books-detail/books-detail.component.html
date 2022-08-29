@@ -1,0 +1,75 @@
+Hi User!
+
+<p>Your existing books</p>
+<div>
+    <table class="table">
+       <thead>
+         <th>Book Id</th>
+         <th>Logo</th>
+         <th>Title</th>
+         <th>Category</th>
+         <th>Price</th>
+         <th>Author Name</th>
+         <th>Publisher</th>
+         <th>Content</th>
+       </thead>
+       <tbody>
+         <tr *ngFor="let book1 of books">
+           <td>{{book1.bookId}}</td>
+           <td>{{book1.logo}}</td>
+           <td>{{book1.title}}</td>
+           <td>{{book1.category}}</td>
+           <td>{{book1.price}}</td>
+           <td>{{book1.authorName}}</td>
+           <td>{{book1.publisher}}</td>
+           <td>{{book1.content}}</td>
+           <td>
+            <a [routerLink]="['/booksmodify',book1.bookId]">
+              Edit
+      
+            </a>
+          </td>
+          <td>
+            <a href="/bookshome" (click)="deleteBook(book1.bookId)">
+              Delete
+      
+            </a>
+          </td>
+         </tr>
+       </tbody>
+    </table>
+  </div>
+  <a  [routerLink]="['/bookscreate']">Create a new book</a>
+
+
+
+   <!-- <p>Make change to a book</p>
+  <span>Please enter Book ID</span>
+  <input type="text" placeholder="" [(ngModel)]="bookId" name='BookId'class=" col-md-3"/>
+     <br/>
+     <button>See details</button>
+     <form  [formGroup]="bookForm">
+        <span>Please enter Logo</span>
+       <input type="text" placeholder="Logo" formControlName="Logo" name='Logo'class="form-control col-md-3"/>
+          <br/>
+          <span>Please enter your Title</span>
+          <input type="text" placeholder="Title" formControlName="Title" name='Title' class="form-control col-md-3"/>
+          <br/>
+          <span>Please enter Category</span>
+                  <input type="text" placeholder="Category" formControlName="Category" name='Category' class="form-control col-md-3"/>
+            <br/>
+            <span>Please enter Price</span>
+            <input type="text" placeholder="Price" formControlName="Price" name='Price' class="form-control col-md-3"/>
+            <br/>
+            <span>Please enter Author Name</span>
+            <input type="text" placeholder="Author Name" formControlName="AuthorName" name='AuthorName' class="form-control col-md-3"/>
+            <br/>
+            <span>Please enter Publisher</span>
+            <input type="text" placeholder="Publisher" formControlName="Publisher" name='Publisher' class="form-control col-md-3"/>
+            <br/>
+            <span>Please enter Content</span>
+            <input type="text" placeholder="Content" formControlName="Content" name='Content' class="form-control col-md-3"/>
+            <br/>
+            <div class="button-row">
+              <button type="submit" class="btn btn-primary">Login</button>
+          </div></form> -->
